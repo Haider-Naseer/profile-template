@@ -1,0 +1,19 @@
+.gallery_container {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-top: 16px;
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    h2 {
+      color: #2d3139;
+      margin: 0px;
+      font-size: 16px;
+    }
+    span {
+      color: #fe5d31;
+    }
+  }
+}

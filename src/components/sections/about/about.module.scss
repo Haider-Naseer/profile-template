@@ -1,0 +1,50 @@
+.about_container {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;
+    margin: 0px;
+    padding: 9px 0px 25px 0px;
+  }
+  .stats_section {
+    padding-bottom: 5px;
+    .inner_container {
+      border-right: 1px solid #e2e2e2;
+      text-align: center;
+      span {
+        font-size: 14px;
+        color: #9d9daf;
+      }
+      h2 {
+        color: #2d3139;
+        font-size: 16px;
+        padding-top: 9px;
+      }
+    }
+    .last_child {
+      border-right: none;
+    }
+    .first_child {
+      text-align: left;
+    }
+  }
+  .listing {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    span {
+      color: #9d9daf;
+      font-family: "Outfit";
+      font-weight: 400;
+      padding-left: 10px;
+    }
+  }
+}

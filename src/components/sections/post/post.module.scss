@@ -1,0 +1,14 @@
+.content_container {
+  padding-top: 10px;
+  p {
+    font-weight: 300;
+  }
+  .side_images {
+    img {
+      margin-top: 15px;
+    }
+    .first_child {
+      margin-top: 0px;
+    }
+  }
+}

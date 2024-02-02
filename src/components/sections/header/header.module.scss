@@ -1,0 +1,15 @@
+.header_section {
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  .profile_setting {
+    img {
+      margin: 0px 10px;
+    }
+    img:last-child {
+      margin: 0px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.footer_container {
+  padding: 16px;
+  .first_child{
+    border: 0px;
+  }
+  ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    font-family: "Outfit";
+    font-size: 14px;
+    font-weight: 300;
+    color: #9d9daf;
+    padding: 10px 0px;
+    border-top: 1px solid #9d9daf63;
+  }
+  li {
+    padding-right: 15px;
+  }
+  .copy_write{
+    display: flex;
+    border-top: 1px solid #9d9daf63;
+    justify-content: space-between;
+    ul{
+        border: 0px;
+    }
+  }
+}
