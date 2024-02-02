@@ -11,8 +11,12 @@ import Footer from "./components/sections/footer/Footer";
 function App() {
   return (
     <div className="layout">
+      <div className="header-container">
+        <div className="container">
+          <Header />
+        </div>
+      </div>
       <div className="container">
-        <Header />
         <div className="sub_container">
           <ProfileCover />
           <Row gutter={[18, 0]}>

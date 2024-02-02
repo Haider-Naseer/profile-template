@@ -29,9 +29,18 @@ input:focus-visible {
   display: flex;
   justify-content: center;
   background-color: #f5f5f5;
+flex-wrap: wrap;
 }
 .container {
   max-width: 1440px;
+  width: 1440px;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
 }
 
 .sub_container {
