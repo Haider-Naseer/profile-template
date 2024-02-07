@@ -12,3 +12,9 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .create_post_container {
+    margin-top: 15px;
+  }
+}

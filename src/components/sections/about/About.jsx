@@ -16,19 +16,19 @@ const About = () => {
         et dolore magna aliqua. Ut enim ad minim veniam,
       </p>
       <Row className={styles.stats_section}>
-        <Col lg={6}>
+        <Col lg={6} sm={6} xs={6}>
           <div className={`${styles.inner_container} ${styles.first_child}`}>
             <span>Post</span>
             <h2>1.3K</h2>
           </div>
         </Col>
-        <Col lg={9}>
+        <Col lg={9} sm={9} xs={9}>
           <div className={styles.inner_container}>
             <span>Following</span>
             <h2>3,154</h2>
           </div>
         </Col>
-        <Col lg={9}>
+        <Col lg={9} sm={9} xs={9}>
           <div className={`${styles.inner_container} ${styles.last_child}`}>
             <span>Followers</span>
             <h2>2,054</h2>

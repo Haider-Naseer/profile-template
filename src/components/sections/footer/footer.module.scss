@@ -26,3 +26,13 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .footer_container {
+    padding: 10px;
+    li {
+      padding-right: 10px;
+      font-size: 10px;
+    }
+  }
+}

@@ -29,7 +29,7 @@ input:focus-visible {
   display: flex;
   justify-content: center;
   background-color: #f5f5f5;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .container {
   max-width: 1440px;
@@ -46,4 +46,13 @@ flex-wrap: wrap;
 .sub_container {
   margin: 0 auto;
   width: 75%;
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .sub_container {
+    width: 90%;
+  }
+  img.ant-dropdown-menu-item-icon {
+    width: 30px !important;
+  }
 }

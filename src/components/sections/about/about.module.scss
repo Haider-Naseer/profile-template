@@ -48,3 +48,11 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .listing {
+    img {
+      width: 16px;
+    }
+  }
+}

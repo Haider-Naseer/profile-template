@@ -32,10 +32,10 @@ const DisplayPost = ({ children }) => {
         </div>
       </Row>
       <Row className={styles.footer}>
-        <Col lg={2} className={styles.input_post}>
+        <Col lg={2} sm={2} xs={2} className={styles.input_post}>
           <img src={"/assets/images/profile.svg"} />
         </Col>
-        <Col lg={22} className={styles.create_post}>
+        <Col lg={22} sm={20} xs={20} className={styles.create_post}>
           <input placeholder="Write your comment ..." />
           <img src={"/assets/images/attachment.svg"} />
           <img src={"/assets/images/emoji.svg"} />

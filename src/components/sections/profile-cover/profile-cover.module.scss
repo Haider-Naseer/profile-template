@@ -1,7 +1,7 @@
 .profile_container {
-    margin: 13px 0px 25px 0px;
-    background-color: #fff;
-    border-radius: 12px;
+  margin: 13px 0px 25px 0px;
+  background-color: #fff;
+  border-radius: 12px;
   .hero_image {
     width: 100%;
   }
@@ -41,6 +41,48 @@
     }
     img {
       padding-right: 6px;
+    }
+  }
+  .mobile_menu {
+    display: none;
+  }
+  .web_menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .profile_container {
+    margin: 13px 0px 15px 0px;
+    .profile_detail {
+      padding: 10px 5px 10px 5px !important;
+    }
+    .edit_icon {
+      img {
+        width: 25px;
+        padding-right: 0px !important;
+      }
+    }
+    .detail {
+      img {
+        width: 100px;
+        height: 100px;
+        margin-top: -50px !important;
+        border: 6px solid #ffff !important;
+      }
+      h1 {
+        font-size: 14px !important;
+        padding: 0px !important;
+      }
+      span {
+        font-size: 12px !important;
+      }
+    }
+    .mobile_menu {
+      display: block !important;
+    }
+    .web_menu {
+      display: none !important;
     }
   }
 }

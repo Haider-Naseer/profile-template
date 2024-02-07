@@ -1,5 +1,16 @@
 import styles from "./profile-cover.module.scss";
+import { Dropdown } from "antd";
+import { EditOutlined } from "@ant-design/icons";
+
 const ProfileCover = () => {
+  const items = [
+    {
+      key: "1",
+      label: <span> Edit Profile</span>,
+      icon: <EditOutlined />,
+    },
+  ];
+
   return (
     <div className={styles.profile_container}>
       <img
@@ -15,10 +26,26 @@ const ProfileCover = () => {
             <span>@fawait</span>
           </div>
         </div>
-        <button>
-          <img src={"/assets/images/edit-icon.svg"} />
-          Edit Profile
-        </button>
+
+        <div className={styles.mobile_menu}>
+          <Dropdown
+            menu={{
+              items,
+            }}
+            trigger={["click"]}
+          >
+            <a onClick={(e) => e.preventDefault()} className={styles.edit_icon}>
+              <img src={"/assets/images/more_menu.png"} />
+            </a>
+          </Dropdown>
+        </div>
+
+        <div className={styles.web_menu}>
+          <button>
+            <img src={"/assets/images/edit-icon.svg"} />
+            Edit Profile
+          </button>
+        </div>
       </div>
     </div>
   );

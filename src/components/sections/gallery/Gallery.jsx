@@ -16,7 +16,7 @@ const Gallery = () => {
       <Row gutter={[10, 10]}>
         {Gallery?.map((item) => {
           return (
-            <Col lg={12}>
+            <Col lg={12} sm={12} xs={12}>
               <Image src={`/assets/images/${item?.image}`} />
             </Col>
           );

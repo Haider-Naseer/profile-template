@@ -16,7 +16,7 @@ const Post = () => {
             knowledge with your colleagues.{" "}
           </p>
           <Row gutter={[15, 15]}>
-            <Col lg={12}>
+            <Col lg={12} sm={24} xs={24}>
               <Image src={"/assets/images/upload-profile-03.svg"} />
             </Col>
             <Col lg={12} className={styles.side_images}>
